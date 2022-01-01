@@ -10,6 +10,9 @@ sudo rm -rf \
           hardware/lineage/interfaces/light \
           vendor/qcom/opensource/thermal-engine
 source build/envsetup.sh
+repopick -f 186309
+repopick -f 225762
+repopick -t pie-mode-bits -f
 virtualenv --python 2.7 ~/python27
 source ~/python27/bin/activate
 export USE_CCACHE=1
