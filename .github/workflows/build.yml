@@ -83,9 +83,9 @@ jobs:
             $ANDROID_ROOT/hardware/qcom/display-caf/msm8952 \
             $ANDROID_ROOT/hardware/qcom/audio-caf/msm8952 \
             $ANDROID_ROOT/hardware/qcom/media-caf/msm8952
-          git clone https://github.com/benarji7/android_hardware_qcom_display.git -b treble $ANDROID_ROOT/hardware/qcom/display-caf/msm8952
-          git clone https://github.com/benarji7/android_hardware_qcom_audio.git -b treble $ANDROID_ROOT/hardware/qcom/audio-caf/msm8952
-          git clone https://github.com/benarji7/android_hardware_qcom_media.git -b treble $ANDROID_ROOT/hardware/qcom/media-caf/msm8952
+          git clone https://github.com/benarji7/android_hardware_qcom_display.git -b lionheart $ANDROID_ROOT/hardware/qcom/display-caf/msm8952
+          git clone https://github.com/benarji7/android_hardware_qcom_audio.git -b lionheart $ANDROID_ROOT/hardware/qcom/audio-caf/msm8952
+          git clone https://github.com/benarji7/android_hardware_qcom_media.git -b lionheart $ANDROID_ROOT/hardware/qcom/media-caf/msm8952
 
       - name: Check free space again
         run: |
